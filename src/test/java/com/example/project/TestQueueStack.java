@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class TestQueueStack {
    @Test
    public void testSplit1()
-   {
+    {
       Queue<Character> original = new ArrayQueue<Character>(5);
       original.enqueue('a');
       original.enqueue('b');
